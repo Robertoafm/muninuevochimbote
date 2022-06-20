@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/* CSS document */
+
+.navbar{
+background-color: rgb(0, 153, 210);
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+
+.contenedor{
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+	max-width: 1170px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.fila{
+	display: flex;
+    margin-right: -15px;
+	margin-left: -15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.col{
+	
+    width: 100%;
+    box-sizing: border-box;
+    flex: 1;
+    padding-left: 30px;
+	padding-right: 30px;
+}
+
+.imagen-fluida{
+	max-width:100%;
+	height: auto;
+}
+
+.w-100{
+	width: 100%;    
+}
+
+
+/* TIPOGRAFIA */
+h1{
+	font-size: 2.66rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: lato;
+	color:black;
+}
+
+h1 .titulo-grande{
+    font-size: 3.33rem;
+}
+
+h2{
+	font-size: 2.66rem;
+	/* [disabled]font-weight: bold; */
+	color:black;
+}
+
+h3{
+    font-size: 1.77rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #0c467a;
+}
+
+h4{ 
+	font-size: 1.33rem;	
+	font-weight: normal;
+	color:black;
+}
+
+h5{
+	font-size: 1.33rem;
+	text-transform: uppercase;
+	font-weight: bold;	
+	color: #0c467a;
+	
+}
+
+/* Para la seccion de tour.*/
+
+.container-tour {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+       }
+.hero__background {
+    padding: 0 80px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-center {
+    text-align: center;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.625rem 1.875rem;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-primary {
+    background: #65d097;
+    border-color: #65d097;
+    color: #000;
+}
+
+/* Footer.*/
+.derechos{
+width:100% !important;
+background: rgb(0, 153, 210) !important;
+color: white !important;
+text-align: center !important;
+}
+
+.distrito{
+    width: 100%;
+    padding: 0 0 35px 35px;
+    color: #333333;
+    font-size: 13px;
+    text-align: center;
+}
+
+.historia{
+
+    width: 700px !important;
+    text-align: left !important;
+}
+
+.organizacion{
+    width: 100%;
+    padding: 0 0 35px 35px;
+    color: #333333;
+    font-size: 13px;
+    text-align: center;
+}
+ 
+.servicios{
+    width: 100%;
+    padding: 0 0 35px 35px;
+    color: #333333;
+    font-size: 13px;
+    text-align: center;
+}
+
+.seguridad{
+    width: 100%;
+    padding: 0 0 35px 35px;
+    color: #333333;
+    font-size: 13px;
+    text-align: left !important;
+}
+.telefonos{
+
+    text-align: left !important;
+}
+
+.lucha{
+    width: 100%;
+    padding: 0 0 35px 35px;
+    color: #333333;
+    font-size: 13px;
+    text-align: left !important;
+}
